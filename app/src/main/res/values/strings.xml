@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidPush</string>
+    <string name="installation_id">InstallationId:</string>
+</resources>

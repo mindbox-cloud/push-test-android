@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp">
+
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registering Click!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:text="Clicked Object:"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtClickedObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="0"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:paddingLeft="10dp"
+        android:scrollHorizontally="false"
+        android:text="BODY" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:text="Message Unique Key:"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMessageKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="0"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:paddingLeft="10dp"
+        android:scrollHorizontally="false"
+        android:text="75ac0e90-5058-4804-8c0c-aa10c1f03c5f " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:text="Click URL:"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtClickUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="0"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:paddingLeft="10dp"
+        android:scrollHorizontally="false"
+        android:text="http://example.com/" />
+
+</LinearLayout>
